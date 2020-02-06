@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13973" started-at="2020-02-06T20:02:57 IST" finished-at="2020-02-06T20:03:11 IST">
+    <groups>
+    </groups>
+    <test name="LoginTest1" duration-ms="13973" started-at="2020-02-06T20:02:57 IST" finished-at="2020-02-06T20:03:11 IST">
+      <class name="loginpage.LoginTest">
+        <test-method status="PASS" signature="loginTest1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:loginpage.LoginTest@7791a895]" name="loginTest1" duration-ms="13927" started-at="2020-02-06T20:02:58 IST" data-provider="loginTestData" finished-at="2020-02-06T20:03:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[stc123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="loginTest1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:loginpage.LoginTest@7791a895]" name="loginTest1" duration-ms="12868" started-at="2020-02-06T20:02:58 IST" data-provider="loginTestData" finished-at="2020-02-06T20:03:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[stc123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+      </class> <!-- loginpage.LoginTest -->
+    </test> <!-- LoginTest1 -->
+  </suite> <!-- Suite -->
+</testng-results>
